@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.hero-image {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.50)),
+        url(https://images.unsplash.com/photo-1603958718076-2d8827e9d75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fG1vdG8lMjAxOTIweDEwODB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hero-text-background {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+.sub-hero {
+    padding: 50px 75px;
+    color: white;
+    text-align: center;
+}
+.sub-hero h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+.sub-hero p {
+    font-size: 17px;
+}
+.how-image {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.50)),
+        url(https://images.unsplash.com/photo-1614189350757-660e4bbfcf38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjUyfHxtb3RvJTIwMTkyMHgxMDgwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    min-height: 400px;
+    position: relative;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+.how-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.steps {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.how-text-background {
+    font-weight: 600;
+}
+.equipment-image {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.50)),
+        url(https://images.unsplash.com/photo-1610899632935-dbf6bb9654c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHZsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+.best-setup ul {
+    list-style-type: none;
+}
+.footer-image {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.50)),
+        url(https://images.unsplash.com/photo-1609202748711-feef2cdc7da3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTh8fG1vdG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+.footer-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer-text-background {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
