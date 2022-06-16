@@ -1,2 +1,2 @@
 # ns-parallax-website-mini-project
-This is a parallax website mini project using Html and CSS.
+This project is given by Newton School. In this project I have created a parallax website using Html and CSS.
