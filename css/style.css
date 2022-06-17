@@ -62,7 +62,7 @@ html, body {
 }
 .how-text {
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: white;
@@ -90,7 +90,8 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex; 
+    display: flex;
+    align-items: center;
 }
 .best-setup ul {
     list-style-type: none;
@@ -126,6 +127,6 @@ html, body {
 }
 @media screen and (max-width: 480px) {
     .sub-hero {
-        padding: 50px 25px;
+        padding: 50px 35px;
     }
 }
