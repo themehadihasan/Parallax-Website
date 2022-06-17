@@ -57,7 +57,8 @@ html, body {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;    
+    background-attachment: fixed;
+    display: flex;
 }
 .how-text {
     position: absolute;
@@ -88,7 +89,8 @@ html, body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;    
+    background-attachment: fixed;
+    display: flex; 
 }
 .best-setup ul {
     list-style-type: none;
@@ -103,7 +105,8 @@ html, body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;    
+    background-attachment: fixed;
+    display: flex;
 }
 .footer-text {
     position: absolute;
@@ -120,4 +123,9 @@ html, body {
     background-color: black;
     color: white;
     padding: 10px 15px;
+}
+@media screen and (max-width: 480px) {
+    .sub-hero {
+        padding: 50px 25px;
+    }
 }
